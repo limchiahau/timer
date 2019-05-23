@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "0aa60b8d08c07b1d1e605dd1fb8c25c5f1e00ba318a3728df1708458a5f75e01"
+            "sha256": "0ebfe18f0a220b99bf9d9d38c44cb5d82adadd1006e83d8347f679c5ce122c6e"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,12 +16,35 @@
         ]
     },
     "default": {
+        "ffmpeg": {
+            "hashes": [
+                "sha256:6931692c890ff21d39938433c2189747815dca0c60ddc7f9bb97f199dba0b5b9",
+                "sha256:f8bfbc0aecce394c07a644ce49ea1fb1fa556b32cfcfc349d47bd6d155c71b79"
+            ],
+            "index": "pypi",
+            "version": "==1.4"
+        },
+        "ffprobe": {
+            "hashes": [
+                "sha256:f7dc048df62c6ccc1c602c865a7f0976b2679200fd07ebdc34ce51e9a8205b76"
+            ],
+            "index": "pypi",
+            "version": "==0.5"
+        },
         "playsound": {
             "hashes": [
                 "sha256:1e83750a5325cbccee03d6e751ba3e78c037ac95b95a3ba1f38d0c5aca9e1a34"
             ],
             "index": "pypi",
             "version": "==1.2.2"
+        },
+        "pydub": {
+            "hashes": [
+                "sha256:c362fa02da1eebd1d08bd47aa9b0102582dff7ca2269dbe9e043d228a0c1ea93",
+                "sha256:d29901a486fb421c5d7b0f3d5d3a60527179204d8ffb20e74e1ae81c17e81b46"
+            ],
+            "index": "pypi",
+            "version": "==0.23.1"
         }
     },
     "develop": {}
