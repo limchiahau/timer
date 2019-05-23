@@ -14,6 +14,12 @@ Usage:
 
 *With the above command the timer will ring at 5 minutes and another time 10 minutes later.*
 
+## Requirements
+
+To use this script please install the playsound module.
+
+    pip install playsound
+
 ## Plans for improvements 
 
 ### I plan to display a countdown in the terminal window.
